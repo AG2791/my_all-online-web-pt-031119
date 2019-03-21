@@ -9,7 +9,7 @@ def my_all?(collection)
     i = i + 1 #increment through loop
   end
  
-  if block_return_values.include?(false)
+  if block_return_values.include?(false) #determine return value of method 
     false
   else
     true
